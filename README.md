@@ -17,7 +17,7 @@ Speel Pong tegen de computer! Beweeg je paddle met de muis en probeer de bal voo
 
 ## 🚀 Spelen
 
-Speel het spel online: [GitHub Pages Link]
+**Speel het spel online: [https://michelschep.github.io/p5js-pong/](https://michelschep.github.io/p5js-pong/)**
 
 Of open `index.html` lokaal in je browser.
 
