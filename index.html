@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC Utrecht Pong</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #000;
+            font-family: Arial, sans-serif;
+        }
+        main {
+            text-align: center;
+        }
+        #instructions {
+            color: #fff;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="canvas-container"></div>
+        <div id="instructions">
+            <p>Beweeg je paddle met de muis | Eerste tot 10 punten wint!</p>
+        </div>
+    </main>
+    <script src="sketch.js"></script>
+</body>
+</html>
